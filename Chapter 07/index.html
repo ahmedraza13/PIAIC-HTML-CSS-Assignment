@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Chapter 07 Form Assignment</title>
+</head>
+
+<body>
+       <h1>Forms</h1>
+
+       <form>
+
+              <fieldset>
+
+                     <legend>Your Details:</legend>
+
+                     <p> <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                     </p>
+
+                     <p> <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+                     </p>
+
+              </fieldset>
+
+              <br>
+
+              <fieldset>
+
+                     <legend>Your Review:</legend>
+
+                     <p><label for="hear-about">How do hear about us?</label></p>
+
+
+                     <select name="referrer" id="hear-about">
+
+                            <option value="google">Google</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="friend">Friend</option>
+
+                     </select>
+
+                     <p> Would you visit again?
+                            <br />
+                            <label>
+                                   <input type="radio" name="rating" value="yes" />
+                                   Yes
+                            </label>
+                            <label>
+                                   <input type="radio" name="rating" value="no" />
+                                   No
+                            </label>
+                            <label>
+                                   <input type="radio" name="rating" value="maybe" />
+                                   Maybe
+                            </label>
+                     </p>
+                     <p>
+                            <label for="comments">
+                                   Comments:
+                            </label>
+                            <br />
+                            <textarea rows="4" cols="40" id="comments">
+          </textarea>
+                     </p>
+                     <label>
+                            <input type="checkbox" name="subscribe" checked="checked" />
+                            Sign me up for email updates
+                     </label>
+                     <br /> <br>
+                     <input type="submit" value="Submit review" />
+              </fieldset>
+       </form>
+</body>
+
+</html>
+
+
+</form>
+
+</body>
+
+</html>
